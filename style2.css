@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #2e8b57;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+section.form-section {
+    display: none;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #2e8b57;
+    color: white;
+}
+
+#booksList, #borrowedBooksList {
+    margin-top: 10px;
+}
+
+#booksList div, #borrowedBooksList div {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#img1, #img2, #img3 {
+    padding: 5px;
+    border-radius: 15%;
+}
+
+#img1 {
+    height: 400px;
+    width: 350px;
+}
+
+#img2 {
+    height: 500px;
+    width: 650px;
+}
+
+#img3 {
+    height: 400px;
+    width: 350px;
+}
+
+.libPic {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+}
